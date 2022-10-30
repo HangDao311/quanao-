@@ -1,5 +1,5 @@
 <head>
-    <title>Kho âm nhạc tuyển chọn</title>
+    <title>Quan Ao</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"

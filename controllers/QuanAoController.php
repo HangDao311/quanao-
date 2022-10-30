@@ -12,7 +12,6 @@ class QuanAoController
 
     public function invoke()
     {
-        // return $this->service->get_all_quanao();
-        echo 'ok';
+        return $this->service->get_all_quanao();
     }
 }

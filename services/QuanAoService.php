@@ -5,7 +5,7 @@ require_once 'Util/ExecuteQuery.php';
 class QuanAoService
 {
     public function get_all_quanao(){
-        $sql = "Select * From QUANAO LIMIT 10";
+        $sql = "Select * From product LIMIT 10";
 
         $quanAoList = array();
 
