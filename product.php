@@ -19,11 +19,10 @@ $quanAoController = new QuanAoController();
     </thead>
     <tbody>
       <?php
-      $quanAoList = $this->quanAoController->invoke();
+      $quanAoList = $quanAoController->invoke();
 
       foreach ($quanAoList as $i => $item) {
         echo '<tr>';
-        $count++;
       ?>
         <th scope="row"><?php echo $count ?></th>
         <td><?php echo $item->getId(); ?> </td>
@@ -33,7 +32,7 @@ $quanAoController = new QuanAoController();
         <td>
           <div>
             <button type="button" class="btn btn-success btn-sm">Xem</button>';
-            <button type="button" onclick="onEdit(' .print $item->getId() . ')" class="btn btn-primary btn-sm">Sửa</button>';
+            <button type="button" class="btn btn-success btn-sm">Sua</button>';
             <button type="button" class="btn btn-danger btn-sm">Xoá</button>
           </div>
         </td>
